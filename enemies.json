@@ -1,0 +1,451 @@
+{
+    "vibe coder": {
+        "id": "3",
+        "name": "vibe coder",
+        "description": [
+            "The one that vibes the code.",
+            "Usually lacks competence but makes up for it by attending lots of meetings and hitting hard with nonsense!"
+        ],
+        "lock_directions": [
+            "w"
+        ],
+        "xp": "2",
+        "hp": {
+            "none": {
+                "damage": "1",
+                "win": [
+                    "Vibe coder is assaulting you with nonsense.",
+                    "Without proper equipment you hear too much babble and feel exhausted.",
+                    "Still, you are able to withstand his verbal assault until he remembers to go to a meeting somewhere."
+                ],
+                "loss": [
+                    "Vibe coder is assaulting you with nonsense.",
+                    "Without proper equipment you hear too much babble and feel exhausted.",
+                    "The moral hit is too much and is mortal to your morale."
+                ]
+            },
+            "excalibur": {
+                "damage": "0",
+                "win": [
+                    "As soon as you approach him he begins to speak, but it seems more like someone chanting a litany!",
+                    "You resist the urge to slap him with Excalibur",
+                    "On the other hand he notices the sword and realizes he must go to a meeting somewhere."
+                ]
+            },
+            "armor": {
+                "damage": "0",
+                "win": [
+                    "Vibe coder is assauting you with nonsense, but is powerless against your might.",
+                    "Eventually, he says\"Damn! I must go, i have a meeting!\" and goes away."
+                ],
+                "loss": []
+            }
+        },
+        "bofh": {
+            "none": {
+                "damage": "2",
+                "win": [],
+                "loss": [
+                    "The more you hear his rants, the more you feel empty.",
+                    "The void sinks you and you flee as fast as you can.",
+                    "The moral hit is too much and is mortal to your morale."
+                ]
+            },
+            "laptop": {
+                "damage": "1",
+                "win": [
+                    "You know this one, you've lost count about how many times he locked his account after changing the password!",
+                    "While you are hearing some heavy nonsense, you save yourself immersing in code.",
+                    "You write some low level routines and get calm.",
+                    "Then you slap the code in the vibe coder's face. Fear paints his face while he's reading.",
+                    "Eventually, he flees.",
+                    "You feel an angry joy having taught him a lesson, but some exhaustion too."
+                ],
+                "loss": []
+            },
+            "lart": [
+                "You LARTed Vibe coder before he could even open his mouth!",
+                "You deleted his will to face you!",
+                "You knew this one, you've lost count of how many times he locked his account after changing the password!",
+                "He flees away as fast as he can meditating about his technological sins!"
+            ]
+        }
+    },
+    "mech": {
+        "id": "5",
+        "name": "mech",
+        "description": [
+            "Enforcement Droid, Mecha type. Towering and menacing, its raw, brutal, design creates a striking contrast with the solemn chapel.",
+            "It is fear inducing and its very look screams danger."
+        ],
+        "lock_directions": [
+            "n"
+        ],
+        "xp": "6",
+        "hp": {
+            "none": {
+                "damage": "3",
+                "win": [],
+                "loss": []
+            },
+            "excalibur": {
+                "damage": "2",
+                "win": [
+                    "You engage the enforcment droid with your sword.",
+                    "It tries to hit you, but you deftly dodge and strike it down with Excalibur.",
+                    "It explodes."
+                ],
+                "loss": [
+                    "You engage the enforcment droid with your sword.",
+                    "It tries to hit you, but you deftly dodge and strike it down with Excalibur.",
+                    "It explodes.",
+                    "In spite of your victory, the damage is too much.",
+                    "You faint."
+                ]
+            },
+            "armor": {
+                "damage": "0",
+                "win": [
+                    "As fast as lightning thanks to your gear, you charge the mech head on.",
+                    "While moving, you reverse your grip and strike it down with a Mordhau.",
+                    "The hit, enhanced by your power armor's strength, is tremendous.",
+                    "Excalibur's hilt reduces your opponent to scrap.",
+                    "The impact shatters the floor, and you almost pity the machine."
+                ],
+                "loss": []
+            }
+        },
+        "bofh": {
+            "none": {
+                "damage": "2",
+                "win": [],
+                "loss": []
+            },
+            "laptop": {
+                "damage": "0",
+                "win": [
+                    "This isn't good, this thing looks like it came straight out of RoboCop.",
+                    "Even so, you managed to crack and disable it with your laptop.",
+                    "Still, it shoots an electro dart.",
+                    "However, due to your hijacking, it's not accurate and misses you by a hair.",
+                    "You take a moment of respite and celebrate your hacking skills!"
+                ],
+                "loss": []
+            },
+            "lart": []
+        }
+    },
+    "manager": {
+        "id": "17",
+        "name": "manager",
+        "description": [
+            "Area manager of Megacorp.",
+            "She likes her voice and to complain but not to hear complaints."
+        ],
+        "lock_directions": [],
+        "xp": "1",
+        "hp": {
+            "none": {
+                "damage": "0",
+                "win": [
+                    "While you are thinking of filing a complaint directly with her, she starts complaining herself.",
+                    "Within a single sentence, she manages to complain about the weather, the cleanliness of her office, and the security of the building.",
+                    "She delivers the latter while looking you straight in the eye.",
+                    "You were about to explain yourself but suddenly she goes away saying that for today she has had enough and if they want, the security will take care of that.",
+                    "You are not sure what she means, and she delivered that line with a completely different voice.",
+                    "Anyway, she's no longer here. But her keycard is."
+                ],
+                "loss": []
+            },
+            "excalibur": {
+                "damage": "0",
+                "win": [],
+                "loss": []
+            },
+            "armor": {
+                "damage": "0",
+                "win": [],
+                "loss": []
+            },
+            "full": {
+                "damage": "0",
+                "win": [],
+                "loss": []
+            }
+        },
+        "bofh": {
+            "none": {
+                "damage": "0",
+                "win": [
+                    "You remember her!",
+                    "This is the one that called you because \"The printer is not working!!!\", only to discover that there was a blackout.",
+                    "As you recall this, you hear her complain about the weather, the cleanliness of her office, and the security of the building.",
+                    "She delivers the latter while looking you straight in the eye, but all spoken in a completely different voice.",
+                    "You quickly reply that the security is fine and there's no blackout right now.",
+                    "You see some recognition in her expression.",
+                    "Then she goes away mumbling about a stomachache.",
+                    "She is no longer here, but her laptop and keycard still are."
+                ],
+                "loss": []
+            },
+            "laptop": {
+                "damage": "0",
+                "win": [],
+                "loss": []
+            },
+            "lart": []
+        }
+    },
+    "man with sunglasses": {
+        "id": "4",
+        "name": "man with sunglasses",
+        "description": [
+            "A tall man wearing a black suit, a black tie, black sunglasses and security earphones.",
+            "Flawless in his attire, he looks very serious with no sense of humor."
+        ],
+        "lock_directions": [
+            "n",
+            "w"
+        ],
+        "xp": "2",
+        "hp": {
+            "none": {
+                "damage": "3",
+                "win": [],
+                "loss": [
+                    "The moment you approach him he recognizes you as a stranger.",
+                    "He then jumps at you and immobilizes you with a judo move.",
+                    "That guy is stronger than you and is strangling you! You faint."
+                ]
+            },
+            "excalibur": {
+                "damage": "0",
+                "win": [
+                    "The moment you approach him he recognizes you as a stranger.",
+                    "He then jumps at you and tries to immobilize you with a judo move.",
+                    "But you don't lose your composure, you dodge his assault and manage to trip him with Excalibur.",
+                    "Quickly, you sever his bonds with the corporation by breaking his sunglasses and earphones",
+                    "Then, you point the tip of the sword at his throat.",
+                    "\"I yield!\" he says.",
+                    "You let him go and he honours his defeat by running away."
+                ],
+                "loss": []
+            },
+            "armor": {
+                "damage": "0",
+                "win": [
+                    "The moment you approach him he recognizes you as a stranger.",
+                    "He then jumps at you and tries to immobilize you with a judo move.",
+                    "With the power armor equipped you don't even feel it.",
+                    "Quickly, you sever his bonds with the corporation by breaking his sunglasses and earphones",
+                    "He stares at you with extreme offense and says:\"Damn! Now I have to ask IT for replacements!\"",
+                    "He composes himself and goes away with a strutting stance."
+                ],
+                "loss": []
+            }
+        },
+        "bofh": {
+            "none": {
+                "damage": "2",
+                "win": [],
+                "loss": [
+                    "You know him! He's the most loyal employee, but also the most boring and the least prone to use imagination!",
+                    "The moment you approach him he recognizes you and says:\"You are not allowed to be here.\"",
+                    "He then jumps at you and immobilizes you with a judo move.",
+                    "That guy is stronger than you and is strangling you! You faint."
+                ]
+            },
+            "laptop": {
+                "damage": "0",
+                "win": [
+                    "You know him! He's the most loyal employee, but also the most boring and the least prone to use the imagination!",
+                    "The moment you approach him he recognizes you and say:\"You are not allowed to be here\"",
+                    "But you already hacked into his smartphone.",
+                    "The last stroke of your laptop keyboard sends some extreme mathcore at maximum volume with a 500% gain to his earphones.",
+                    "He runs away, screaming in agony.",
+                    "You guess he eventually took off his earphones, but you didn't see him again.",
+                    "Punk solutions are always the best!"
+                ],
+                "loss": []
+            },
+            "lart": [
+                "You know him! He's the most loyal employee, but also the most boring and the least prone to using his imagination!",
+                "The moment you approach him, he recognizes you and says: \"You are not allowed to be here!\"",
+                "But you aren't even listening to him; you just LART him in the forehead like a clue-by-four, hoping the blow will knock some common sense into him.",
+                "The impact resonates through his earphones and sunglasses, shattering them.",
+                "He looks at you in panic and runs away, yelling: \"Damn! Now I have to ask IT for replacements!\"",
+                "You guess some people never learn."
+            ]
+        }
+    },
+    "history researcher": {
+        "id": "10",
+        "name": "history researcher",
+        "description": [
+            "She is very nerdy about history!"
+        ],
+        "lock_directions": [
+            "n",
+            "e"
+        ],
+        "xp": "2",
+        "hp": {
+            "none": {
+                "damage": "3",
+                "win": [],
+                "loss": [
+                    "As soon as you approach her, a disputation arises!",
+                    "You know history, but she knows it very well!",
+                    "Soon, you realize you can't compete with her and this quickly becomes a monologue and then a soliloquy",
+                    "After a while, she is satisfied with her performance and proclaims she's going home.",
+                    "This has been too much for you.",
+                    "You are so despondent and can't go on."
+                ]
+            },
+            "excalibur": {
+                "damage": "1",
+                "win": [
+                    "As soon as you approach her, a disputation arises!",
+                    "You know history, but she knows it very well!",
+                    "Soon, you realize you can't compete with her but Excalibur gives you an excuse to steer the subject to history of European martial arts.",
+                    "And that's a different matter!",
+                    "Now the debate is quite balanced.",
+                    "When the confrontation starts to stall, you move the subject again to practical applications and here is where she's lacking!",
+                    "Soon, she realizes she's running out of arguments and withdraws to her own home in shame.",
+                    "You win the confrontation but at a great mental cost."
+                ],
+                "loss": []
+            },
+            "armor": {
+                "damage": "0",
+                "win": [],
+                "loss": []
+            }
+        },
+        "bofh": {
+            "none": {
+                "damage": "2",
+                "win": [],
+                "loss": [
+                    "As soon as you approach her, a dispute arises!",
+                    "You don't know history and she knows it very well!",
+                    "You can't reply to even a single sentence.",
+                    "She is merciless in her demolition.",
+                    "You are so discouraged and can't go on."
+                ]
+            },
+            "laptop": {
+                "damage": "1",
+                "win": [
+                    "As soon as you approach her, a dispute arises!",
+                    "You don't know history and she knows it very well!",
+                    "But you know IT history and, grabbing your laptop, you start a long explanation on the origin of computers",
+                    "It turns out that she is very well versed in IT history too.",
+                    "Then you change tactics, you slowly move the focus to programming techniques!",
+                    "Soon, she realizes she's running out of arguments and withdraws to her own home in shame.",
+                    "You win the confrontation but at a great mental cost."
+                ],
+                "loss": []
+            },
+            "lart": []
+        }
+    },
+    "the countess": {
+        "id": "1",
+        "name": "the countess",
+        "description": [
+            "You see a slender figure outfitted in a sleek, richly adorned, red Renaissance dress.",
+            "Long, red hairs peeks out from beneath a red, elegant, hood that covers half of her face.",
+            "She wears a sword with a beautiful, complex, hilt.",
+            "That's a Schiavona, a side-sword whose blade design is borrowed from a longsword.",
+            "This was used by Slavic mercenaries usually employed by the Republic of Venice.",
+            "It's fast, but built for real combat too.",
+            "Her graceful, balanced posture and her weapon indicate that she's not you everyday damsel in distress",
+            "But, hey, you recognize her... She's The Countess!",
+            "What is she doing here?",
+            "Her fame precedes her and legends says her name comes from a mistake.",
+            "She once said: \"Myself has vanquished countess adversaries\".",
+            "People debate if she was referring to herself as The Countess of if she meant countless.",
+            "Either way, now she's The Countess, and indeed she could take on countless antagonists.",
+            "And countless are the tales of her unmatched strength and speed.",
+            "She even managed to single-handededly best a cyber samurai squadron, and they're elite!",
+            "Saying she's bad news is a huge understatement: even Achilles or Galahad would lose against her!",
+            "Protected with the most resistant nano power armor ever made and armed with the sharpest and most durable nano blade in existence, she looks not only invincible, but hella stylish too!"
+        ],
+        "lock_directions": [
+            "n"
+        ],
+        "xp": "10",
+        "hp": {
+            "none": {
+                "damage": "3",
+                "win": [],
+                "loss": []
+            },
+            "excalibur": {
+                "damage": "3",
+                "win": [],
+                "loss": [
+                    "Just as you approach her, she says in a smooth and mellifluous, yet cold and devoid of any doubt:",
+                    "\"Thou shalt not pass\"",
+                    "Before even realizing what's going on, your vision fades to black."
+                ]
+            },
+            "armor": {
+                "damage": "2",
+                "win": [
+                    "Just as you approach her, she says in a smooth and mellifluous, yet cold and devoid of any doubt:",
+                    "\"Thou shalt not pass\"",
+                    "You don't even have time to think if it's better to follow Liechtenauer's precepts and go all out, or try to be more opportunist à la Fiore dei Liberi, before she hits your sternum with the hilt of her Schiavona!",
+                    "Is she for real? You already knew her fame, but come on! You haven't even seen her move!",
+                    "Had she really wanted, your existence would have vanished in less than a blink, nano power armor or not",
+                    "Somehow, you managed to withstand the hit parrying with Excalibur and the nano power armor absorbing the rest.",
+                    "Had you not been in perfect form, you would have fainted!",
+                    "Anyway, she follows the assault with a remise, she is relentless!",
+                    "Seeing your end, you improvise your life's masterpiece: not only do you parry, but you are able to counter with a gioco stretto!",
+                    "This is a flawless hit, something bards would sing for ages, and it strikes The Countess!",
+                    "It's a terrific pommel strike delivered with inhuman strength!",
+                    "You hear the floor cracking beneath your might.",
+                    "But something is off...",
+                    "WHAAAAT?",
+                    "SHE STOPPED THE HIT WITH JUST ONE FINGER!",
+                    "Super equipment or not, she's not human!",
+                    "And now? What's left other than begging for mercy?",
+                    "Then, the incredible happens.",
+                    "The Countess stops and says:\"'Tis not amiss.\"",
+                    "\"Thou shalt pass.\"",
+                    "Astonished, you see her go away.",
+                    "You survived The Countess and, probably, no one else can claim that!"
+                ],
+                "loss": [
+                    "Just as you approach her, she says in a smooth and mellifluous, yet cold and devoid of any doubt:",
+                    "\"Thou shalt not pass\"",
+                    "Before even realizing what's going on, your vision fades to black."
+                ]
+            }
+        },
+        "bofh": {
+            "none": {
+                "damage": "2",
+                "win": [],
+                "loss": []
+            },
+            "laptop": {
+                "damage": "2",
+                "win": [],
+                "loss": [
+                    "Before you even realize you don't have a plan, your vision fades to black."
+                ]
+            },
+            "lart": [
+                "They say she has never been defeated.",
+                "But, as every sysadmin knows, no matter how strong a luser is, the LART always wins!",
+                "As soon as she charges, you unleash the ultimate LART technique: Angry Mother Throw!",
+                "Just like a mother throwing a slipper at her son never missing, you LART the Countess from a distance!",
+                "You deleted her will to face you and she runs away!",
+                "You defeated the Countess! David looks like a total noob compared to you!",
+                "Of course, you pick up the LART, the most sacred relic of Sysadmins!"
+            ]
+        }
+    }
+}

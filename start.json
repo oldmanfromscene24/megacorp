@@ -1,0 +1,83 @@
+{
+    "logo": [
+        "MEGACORP",
+        "Engineered", "Gears", "Aids", "Chivalry","Obsessed", "Reenactment","Professionals",
+        ""
+    ],
+    "common": [
+        "Welcome to MEGACORP!",
+        "",
+        "You need to choose your job to proceed. You can choose from:",
+        "",
+        "-HP",
+        "\tHistorical European Martial Arts professional. You bought a Sparring Partner from MEGACORP.",
+        "\tNot only did it break, scaring your dog, MEGACORP refuses to refund you and refutes your reasons!",
+        "",
+        "-BOFH",
+        "\tBastard Operator From Hell, an angry sysadmin working for MEGACORP. Now you're even angrier because they haven't been paying you for some time.",
+        "\tOf course, the CEO still has money for his Ferrari.",
+        "",
+        "What are you? Be sure to choose well or you risk being unemployed!"
+    ],
+    "hp": {
+        "home": [
+            "MEGACORP. The gold standard for any HEMA lover. Sure, it's not cheap, but quality costs.",
+            "After a strenuous talk, you convinced your boss to let you work from home, and your company bought a Sparring Partner.",
+            "However, he said you have to demonstrate its utility, otherwise the company will return it and charge you for any expenses incurred.",
+            "They said it was not just a training dummy, but a true robot with decision-making and great motion capabilities, able to withstand severe punishment.",
+            "Of course, it came with a long warranty.",
+            "Too bad it broke after just a few days.",
+            "On top of that, it literally exploded. While that was dangerous in itself, it absolutely terrified your dog.",
+            "Now, whenever your dog sees a sword, he flees... And you practice a lot around the house!",
+            "Your boss, of course, ordered you to get a refund or a replacement. It wasn't a pleasant conversation.",
+            "But MEGACORP's bureaucracy has proven impenetrable. Some claimed improper usage, others that experimental tech was excluded from the warranty.",
+            "The last attempt seemed promising: the employee collected your data and escalated the problem.",
+            "Too bad you haven't heard back in a month!",
+            "So, now you're going to MEGACORP yourself to embark on your quest!"
+        ],
+        "start": [
+            "You arrive at MEGACORP early. You didn't want to believe it, even though you heard the palace was amazing, but...",
+            "Not like this! Somehow, they managed to shape it in a crazy way, and they say they can change it whenever they want!",
+            "What kind of technology they use for that is beyond you.",
+            "Today, the building is a massive, sprawling castle citadel, mixing Gothic and spaceship elements, with loads of huge flags with \"MEGACORP\" written on them.",
+            "Behind that, there's an even more enormous rearing horse with a knight wielding a jousting lance and a shield, which represents the company's logo.",
+            "Even greater, looming over the entrance, the word MEGACORP is written out. Talk about megalomania!",
+            "A plaque reads: \"Autarch Citadel - From Gene Wolfe's Book Of The New Sun\"",
+            "You don't know who he is, but must have had a good imagination.",
+            "But enough staring. You know what you're here to do, and you stride into the building."
+        ]
+    },
+    "bofh": {
+        "home": [
+            "\"... And remember: it's a privilege to work here!\"",
+            "You remember the day they hired you as if it were yesterday.",
+            "Everything seemed great at first, but soon, something felt off.",
+            "Like having to go to the CEO's vacation home just to check if the internet, the printer, the TV, and various subscriptions were working fine.",
+            "Who, in their right mind, needs a printer on vacation?",
+            "Or when the domain server cluster failed, but his son's 3D printer was somehow more important.",
+            "Or when his family called you on a Saturday evening demanding... Stop, enough thinking!",
+            "Now you must act! Your vacation is approaching!",
+            "And, since, unlike your CEO, you don't intend to spend your vacation on a printer, you don't want to be short on cash!",
+            "They haven't paid you in 6 months and it's not like they paid you that well before.",
+            "You want to resign with a good severance package and, of course, all your back pay.",
+            "They are lucky you aren't a criminal, or stupid enough to go against a corporation, because an angry sysadmin can be dangerous.",
+            "You head to the main headquarters, determined to have a word with the CEO."
+        ],
+        "start": [
+            "You arrive at MEGACORP headquarters. It's been a while since you last set foot in here.",
+            "You remember when they called you to help implement an ultra-complex holographic system to alter MEGACORP's facade.",
+            "You didn't do much that day. You were just there as network support.",
+            "Most of the time you just sat aside, laughing at the \"experts\" and their struggles, so expert they couldn't even check if a network port was open or not.",
+            "Today, the building is a massive, sprawling castle citadel, mixing Gothic and spaceship elements, with loads of huge flags with \"MEGACORP\" written on them.",
+            "Behind that, there's an even more enormous rearing horse with a knight wielding a jousting lance and a shield, which represents the company's logo.",
+            "Even greater, looming over the entrance, the word MEGACORP is written out. Talk about megalomania!",
+            "You have to admit that this stuff works wonders, even if that 3D model alone probably cost more than your yearly salary (assuming they actually paid you) and it doesn't exactly look AAA energy efficient.",
+            "A plaque reads: \"Autarch Citadel - From Gene Wolfe's Book Of The New Sun\"",
+            "How dare they? Gene Wolfe is one of your favorite authors and his works are genius. You feel sick that those scoundrels are using his ideas!",
+            "But enough of that. You know what to do, and you enter the building."
+        ]
+    },
+    "help": [
+        "Use the command \"help\" at any time to get a list of commands."
+    ]
+}

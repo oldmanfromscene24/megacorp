@@ -1,0 +1,21 @@
+name = "Megacorp"
+type = "app"
+packages = ["art", "termcolor"]
+
+[[fetch]]
+files = [
+    "term_utils.py",
+    "project.py",
+    "combat.py",
+    "engine.py",
+    "entities.py",
+    "map_fn.py",
+    "world.py",
+    "enemies.json",
+    "items.json",
+    "job_items.json",
+    "rooms.json",
+    "scores.json",
+    "start.json",
+    "help.json"
+]

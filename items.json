@@ -1,0 +1,226 @@
+{
+    "imperial stout": {
+        "id": "18",
+        "name": "imperial stout",
+        "description": [
+            "Finely aged Imperial Stout, canned. Good for your taste buds and your morale."
+        ],
+        "allowed_jobs": [
+            "hp",
+            "bofh"
+        ]
+    },
+    "keycard": {
+        "id": "17",
+        "name": "keycard",
+        "description": [
+            "Keycard of the area manager.",
+            "It has a magnetic stripe."
+        ],
+        "allowed_jobs": [
+            "hp",
+            "bofh"
+        ]
+    },
+    "excalibur": {
+        "id": "21",
+        "name": "excalibur",
+        "description": [
+            "Megacorp's flagship product, crafted as a perfect replica of King Arthur's legendary blade.",
+            "While richly adorned and flawlessly balanced, it is far too sharp to be a mere HEMA training weapon.",
+            "Truly a blade fit for the King of Knights.",
+            "It can't be sold to peasants."
+        ],
+        "allowed_jobs": [
+            "hp"
+        ]
+    },
+    "keypad": {
+        "id": "7",
+        "name": "keypad",
+        "description": [
+            "A security keypad.",
+            "It's mounted on the wall and controls access to the nearby door.",
+            "The display says:\"Swipe the badge and sort the colors\"."
+        ],
+        "allowed_jobs": []
+    },
+    "blue note": {
+        "id": "23",
+        "name": "blue note",
+        "description": [
+            "A blue note with a scribbled code: "
+        ],
+        "allowed_jobs": [
+            "hp",
+            "bofh"
+        ]
+    },
+    "red note": {
+        "id": "22",
+        "name": "red note",
+        "description": [
+            "A red note with a scribbled code: "
+        ],
+        "allowed_jobs": [
+            "hp",
+            "bofh"
+        ]
+    },
+    "button": {
+        "id": "17",
+        "name": "button",
+        "description": [
+            "It is labeled: \"Treasury\"."
+        ],
+        "allowed_jobs": []
+    },
+    "winged button": {
+        "id": "10",
+        "name": "winged button",
+        "description": [
+            "This wing shaped button is labeled: \"Project W2\"."
+        ],
+        "allowed_jobs": []
+    },
+    "blue button": {
+        "id": "21",
+        "name": "blue button",
+        "description": [
+            "It is labeled: \"Blue vault\""
+        ],
+        "allowed_jobs": []
+    },
+    "red button": {
+        "id": "23",
+        "name": "red button",
+        "description": [
+            "It is labeled: \"Red vault.\""
+        ],
+        "allowed_jobs": []
+    },
+    "laptop": {
+        "id": "17",
+        "name": "laptop",
+        "description": [
+            "A trusty, no frills, laptop."
+        ],
+        "allowed_jobs": [
+            "bofh"
+        ]
+    },
+    "power armor": {
+        "id": "13",
+        "name": "power armor",
+        "description": [
+            "Latest, secret, creation of Megacorp, it outclasses all previous products.",
+            "The power armor is the pinnacle of modern technology, featuring immense protection and durability.",
+            "It's the first armor capable of withstanding anti-matter rifle shots.",
+            "It integrates an exoskeleton and a neural augmentation that improves strength, speed and reaction times to inhuman levels.",
+            "Thanks to nanotechnology, everything is miniaturized and it looks like a true Renaissance tournament plate armor.",
+            "The design is incredibly elaborate, with etching and gilding techniques used on each plate, complete with a close helm, gauntlets and every necessary piece.",
+            "It is modeled after a suit of armor, now preserved in the Wallace Collection, supposedly made for Alfonso II D’Este, Duke of Ferrara.",
+            "The original employed essentially every decorative technique possible and was almost certainly the work of the virtuoso goldsmith-armourer Lucio Marliani, known as Piccinino.",
+            "Truly a work of art in all senses."
+        ],
+        "allowed_jobs": [
+            "hp"
+        ]
+    },
+    "invoice": {
+        "id": "16",
+        "name": "invoice",
+        "description": [
+            "This is an invoice, the expense is called \"Extra Security\"",
+            "It's quite high, paid in advance and refers to only this week, but it costs more than the average yearly wage.",
+            "Reading that, you wonder if this was really the best time to come at MEGACORP."
+        ],
+        "allowed_jobs": [
+            "hp",
+            "bofh"
+        ]
+    },
+    "post-it": {
+        "id": "19",
+        "name": "post-it",
+        "description": [
+            "Attached to the broken training dummy, you found this post it. It says:",
+            "\"Take to W2 area.\""
+        ],
+        "allowed_jobs": [
+            "hp",
+            "bofh"
+        ]
+    },
+    "letter": {
+        "id": "20",
+        "name": "letter",
+        "description": [
+            "In a closet in the changing room, you found this letter. It says:",
+            "\"They said we should have observed her and taken note.\"",
+            "\"But she just sliced through it like a hot knife through butter!\"",
+            "\"She is still unsurpassed, by far. A long way to go to achieve W2 supremacy.\"",
+            "\"She is so scary. And her demeanor makes it surreal!\""
+        ],
+        "allowed_jobs": [
+            "hp",
+            "bofh"
+        ]
+    },
+    "circular": {
+        "id": "14",
+        "name": "circular",
+        "description": [
+            "On a seat in the main hall, you found this circular.",
+            "Someone forgot it here, since it's classified. It says:",
+            "\"Observe her and learn as much as you can.\"",
+            "\"We put her on guard duty at the Hall of Mirrors.\"",
+            "\"She agreed to that, saying she'll consider herself free to leave if she finds someone worthy.\"",
+            "\"I'm not entirely sure what that means, she speaks in a rather quaint way.",
+            "\"But that clause halved the cost and that was clear.\"",
+            "\"Anyway, don't make her angry and be accommodating. Survival first.\""
+        ],
+        "allowed_jobs": [
+            "hp",
+            "bofh"
+        ]
+    },
+    "directive": {
+        "id": "9",
+        "name": "directive",
+        "description": [
+            "In the lab you found this directive. It says:",
+            "\"Collect all information you can.\"",
+            "\"Filter and process it, then send it to the W2 area.\"",
+            "\"I don't need to remind to you that WelkinWeb is our most ambitious project, and it will make us the number one corporation in the world.\"",
+            "\"Pay particular attention to her data.",
+            "\"She's here for just a week.\"",
+            "\"It might be a small step, but the ultimate goal is big.\""
+        ],
+        "allowed_jobs": [
+            "hp",
+            "bofh"
+        ]
+    },
+    "torn page": {
+        "id": "3",
+        "name": "torn page",
+        "description": [
+            "In the gothic lab, you found this torn page in a trash can. It probably belonged to a diary. It says:",
+            "\"WelkinWeb? W2? Maybe WW2 is more appropriate! Or, even worse, WW3.\"",
+            "\"Because this will wreak havoc like a World War. Or worse.\"",
+            "\"WW4 won't even be fought with sticks and stones, because there won't be anyone left!\"",
+            "\"But maybe I am exaggerating. I must calm down and keep the process under control.\"",
+            "\"I must stay involved and endure, precisely because it's dangerous.\"",
+            "\"To enforce moral limits and make sure everything goes smoothly.\"",
+            "\"We are not madmen. We are not doing something that would destroy us.\"",
+            "The page is torn and ends here.",
+            "The name WelkinWeb rings a distant bell, but you can't quite place it.",
+            "Though you're certain it's nothing good."
+        ],
+        "allowed_jobs": [
+            "hp",
+            "bofh"
+        ]
+    }
+}

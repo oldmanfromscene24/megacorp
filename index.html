@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Megacorp</title>
+    <link rel="stylesheet" href="https://pyscript.net/releases/2025.2.3/core.css" />
+    <script type="module" src="https://pyscript.net/releases/2025.2.3/core.js"></script>
+    <style>
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
+
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100dvh;
+            background-color: #111;
+            color: #0f0;
+            font-family: monospace;
+            overflow: hidden;
+        }
+
+        #terminal-wrapper {
+            position: absolute;
+            top: var(--header-h, 40px);
+            bottom: 0;
+            left: 0;
+            right: 0;
+        }
+
+        pyscript-terminal, py-terminal, .py-terminal {
+            display: block !important;
+            width: 100% !important;
+            height: 100% !important;
+            max-height: none !important;
+            min-height: 100% !important;
+        }
+        
+        .xterm-viewport, .xterm {
+            background-color: transparent !important;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="terminal-wrapper">
+        <script type="py" config="./pyscript.toml" terminal worker>
+            import os
+            import sys
+            import runpy
+            import termcolor
+            import art
+
+            os.environ["FORCE_COLOR"] = "1"
+
+            _original_system = getattr(os, 'system', None)
+
+            def _mock_system(cmd):
+                if cmd.lower() in ['cls', 'clear']:
+                    sys.stdout.write('\033[2J\033[H')
+                    sys.stdout.flush()
+                else:
+                    if _original_system:
+                        _original_system(cmd)
+
+            os.system = _mock_system
+        
+            runpy.run_path('./project.py', run_name='__main__')
+        </script>
+    </div>
+</body>
+</html>

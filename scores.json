@@ -1,0 +1,212 @@
+{
+    "standard_win": [
+        "The plaque simply reads:\"CEO office\". This room, in stark contrast to the other rooms in that wing, is relatively somber and minimalistic.",
+        "It prioritizes functionality but the materials are top tier and there's a billiard table.",
+        "Maybe it looks a bit underwhelming compared to previous halls, but it looks like the perfect office.",
+        ""
+    ],
+    "full_win": [
+        "If previous rooms weren't enough, you still weren't prepared for this.",
+        "The plaque reads:\"Hall of the Great Council replica, Doge's Palace\"",
+        "While the hall itself is a masterpiece, as majestic as you could imagine with the largest oil painting on canvas in the world, what's inside is truly beyond belief.",
+        "This hall is used as an assembly line for microprocessors and androids!",
+        "Production is certainly not mass-scale, but enough for prototypes.",
+        "All machinery exactly matches the style of the rest of the hall!",
+        "And while it's big for a room, it's not so big for a factory!",
+        "So, whoever designed this crammed every single space.",
+        "Just staring at all this gives you a headache.",
+        "It's like mixing Escher architecture with Renaissance and a touch of Giger madness!",
+        ""
+    ],
+    "unemployed": {
+        "fail": {
+            "0": [
+                "You couldn't even pick a job! Bye bye money!",
+                "Title: Jobless luser",
+                ""
+            ]
+        }
+    },
+    "hp": {
+        "fail": {
+            "0": [
+                "At least you got a job, now you got a debt too!",
+                "Title: Larper (not HEMA professional)",
+                ""
+            ],
+            "1": [
+                "Did you even try?",
+                "Title: Lazy Dilettante",
+                ""
+            ],
+            "2": [
+                "You tried, but not that hard.",
+                "Title: Sellsword with no sword to sell.",
+                ""
+            ],
+            "3": [
+                "It was a nice try, but not enough!",
+                "Title: Man at arms",
+                ""
+            ],
+            "4": [
+                "You deserved your refund.",
+                "Title: Condottiero",
+                ""
+            ]
+        },
+        "standard_win": {
+            "3": [
+                "Title: Errant Knight",
+                ""
+            ],
+            "4": [
+                "Title: Knight commander",
+                ""
+            ],
+            "5": [
+                "Title: Champion",
+                ""
+            ],
+            "end": [
+                "The CEO is here. He watches you, inquisitive and annoyed.",
+                "You explain your situation, but he cuts you off and says:",
+                "\"I understand. I'll give you the refund. I just need you to sign an agreement stating you won't do business with us ever again.\"",
+                "\"And, of course, not a word about this matter. You can keep the gear you found today. Take it as a sign of goodwill.\"",
+                "You take a moment to read it, and it doesn't look like a scam. Besides, the debt would be too much for you anyway, so you don't have much of a choice.",
+                "Also, the gear you found is glorious.",
+                "You sign.",
+                "It seems all too easy but, hey, defeating a mech must have left an impression!",
+                "You get the feeling he was just eager to make you go away, but a win is a win.",
+                ""
+            ]
+        },
+        "full_win": {
+            "5": [
+                "Title: First Sword of Justice",
+                ""
+            ],
+            "end": [
+                "Bewildered, now you understand: Weliknweb is building its own version of Skynet!",
+                "This is pure madness!",
+                "You grab what looks like a golden chip from the center of the room. While you wonder what to do next, a man approaches, followed by four dark figures.",
+                "You recognize him instantly: he is the CEO of MEGACORP. You recognize the others too—they are Cyber Samurai.",
+                "They don't closely mimic the ancient warriors; their armor is sleek, their full helmets feature a glowing visor, and, of course, they wield nano-katanas.",
+                "Three are red and one is black. The former are elite units, while the latter is their captain.",
+                "They mean big trouble. But having survived The Countess, you feel a weird surge of adrenaline.",
+                "In a cold, measured, and imposing voice, the CEO says: \"Surrender, and maybe you...\"",
+                "Blinded by adrenaline, you dash forward and tackle the CEO while he is still speaking.",
+                "You sprint away, with the Samurai hot on your heels.",
+                "They try to strike, but you are simply too fast in your armor.",
+                "You break through the entrance and head straight for the nearest police station.",
+                "The CEO is unconscious but otherwise unharmed.",
+                "Things don't go smoothly at first. You face charges of all types, from kidnapping to assault and battery.",
+                "But luck is on your side: an attorney, named, with great imagination, \"The Shark,\" has an old score to settle with MEGACORP and takes your case.",
+                "He manages to have the golden chip analyzed, and the data on it proved decisive.",
+                "The whole ordeal turns into a massive media sensation, which plays heavily in your favor.",
+                "Soon, the CEO is indicted, and MEGACORP's shares plummet.",
+                "The CEO vanishes. Rumor has it he took refuge in Belize.",
+                "MEGACORP is swiftly taken over by a competitor.",
+                "Word spreads about you surviving The Countess, and you become a local hero."
+            ]
+        }
+    },
+    "bofh": {
+        "fail": {
+            "0": [
+                "At least you had a job, too bad you got fired!",
+                "Title: Luser of the week",
+                ""
+            ],
+            "1": [
+                "Your problem solving skills need to be honed.",
+                "Title: Jobless call center operator",
+                ""
+            ],
+            "2": [
+                "You have some talent, develop it, maybe...!",
+                "Title: Jobless IT technician",
+                ""
+            ],
+            "3": [
+                "You have talent, but reality is harsh!",
+                "Title: Jobless Sysadmin",
+                ""
+            ],
+            "4": [
+                "You got the skills, maybe not the luck!",
+                "Title: Jobless Hacker",
+                ""
+            ]
+        },
+        "standard_win": {
+            "3": [
+                "Title: Sysadmin",
+                ""
+            ],
+            "4": [
+                "Title: Hacker",
+                ""
+            ],
+            "5": [
+                "Title: Guru",
+                ""
+            ],
+          "end": [
+                "The CEO is here. He watches you, inquisitive and annoyed at first, then surprised when he recognizes you.",
+                "You angrily explain your situation and he tries to cut you off but you raise your voice.",
+                "He listens to you, his gaze so cold it could freeze the sun.",
+                "When you finish, he takes a deep breath and says:",
+                "\"Fine. We'll give you your back payment. And two years of wages. Take it as a sign of goodwill.\"",
+                "\"You just have to sign that NDA and respect it.\"",
+                "You take a moment to read it, and it doesn't look like a scam.",
+                "You sign the contract and give it back to him.",
+                "With composure, he says: \"Get out of my sight and never come back.\"",
+                "You go toward the door and, just before leaving, with a grin, you say: \"A pleasure doing business with you.\"",
+                "His stare could pierce a black hole, but he remains silent.",
+                "You get the feeling he was just eager to make you go away, but you got what you wanted!",
+                "And now you are free to start again!"
+            ]
+        },
+        "full_win": {
+            "5": [
+                "Title: Master Wizard",
+                ""
+            ],
+            "end": [
+                "Bewildered, now you understand: Weliknweb is building its own version of Skynet!",
+                "This is pure madness!",
+                "Quickly, you connect to the assembly line with your laptop and discover a fully working bot you hadn't noticed before.",
+                "It lacks its outer coating but is fully functional; its shape resembles a metallic skeleton.",
+                "And you can activate it! On your screen, you read:",
+                "\"The Count, elite bot. Power level estimated: over 9000. Highly destructive, command with care.\"",
+                "While you are hacking its command protocols, a man approaches, followed by four dark figures.",
+                "You recognize him instantly: he is the CEO of MEGACORP. You recognize the others too, they are Cyber Samurai.",
+                "They don't closely mimic the ancient warriors; their armor is sleek, their full helmets feature a glowing visor, and, of course, they wield nano-katanas.",
+                "Three are red and one is black. The former are elite units, while the latter is their captain.",
+                "They mean big trouble. But having survived The Countess, you feel a weird surge of adrenaline.",
+                "In a cold, measured, and imposing voice, the CEO says: \"Surrender, and maybe you'll die without suffering.\"",
+                "But you aren't just waiting around; you start recording everything with your laptop while instructing The Count.",
+                "You command it to protect you, displaying its force without killing anyone.",
+                "At a nod from the CEO, the Cyber Samurai launch their assault.",
+                "The Count steps into the open and shields you, grabbing a katana and shattering it with its bare grip.",
+                "The CEO's face turns pale, and he runs away!",
+                "The battle between The Count and the Cyber Samurai is fierce, but the machine quickly displays its absolute superiority.",
+                "This leaves you free to pursue the CEO.",
+                "You catch up to him and he snarls: \"You will regre-\"",
+                "But before he can finish, you LART him for good! Now he's completely powerless.",
+                "You check on The Count; it has successfully disabled all the Samurai. The room is totally unscathed, and you marvel at the mastery required to avoid any damage.",
+                "With The Count's aid, you drag the CEO straight to the police station.",
+                "The situation is surreal, but upon seeing The Count, not to mention your recording, the officers believe your story.",
+                "The whole ordeal turns into a massive media sensation, which plays heavily in your favor.",
+                "Soon, the CEO is indicted, and MEGACORP's shares plummet rapidly.",
+                "The CEO vanishes. Rumor has it he took refuge in Belize.",
+                "MEGACORP is swiftly taken over by a competitor.",
+                "Word spreads about you hacking The Count, and you are flooded with job offers and respect from the tech community.",
+                "Now you work half as much as before, earn twice as much, and can afford all the vacations you want!",
+                "And, of course, you also got your back pay and two years of wages as compensation for moral damages!",
+                "Life is good!"
+            ]
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "two-by-four": {
+        "id": "12",
+        "name": "two-by-four",
+        "description": [
+            "This is a solid two-by-four, it's of no use to you."
+        ],
+        "allowed_jobs": [
+            "hp"
+        ]
+    },
+    "lart": {
+        "id": "12",
+        "name": "lart",
+        "description": [
+            "Luser Attitude Readjustment Tool.",
+            "Usage: lart <enemy>",
+            "Argument: <enemy>\t The name of the enemy to be larted.",
+            "",
+            "It looks like a two-by-four but it is the mightiest tool against lusers and grants victory to sysadmins against them!"
+        ],
+        "allowed_jobs": [
+            "bofh"
+        ]
+    }
+}

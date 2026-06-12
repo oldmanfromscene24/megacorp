@@ -1,0 +1,304 @@
+{
+    "0": {
+        "name": "hall of the great council",
+        "description": [
+            "If previous rooms weren't enough, you still weren't prepared for this.",
+            "The plaque reads:\"Hall of the Great Council replica, Doge's Palace\"",
+            "While the hall itself is a masterpiece, as majestic as you could imagine with the largest oil painting on canvas in the world, what's inside that is truly beyond belief.",
+            "This hall is used as an assembly line for microprocessors and androids!",
+            "Production is certainly not mass-scale, but enough for prototypes.",
+            "All machinery exactly matches the style of the rest of the hall!",
+            "And while it's big for a room, it's not so big for a factory!",
+            "So, whoever designed this, crammed every single space.",
+            "Just staring at all this gives you a headache",
+            "It's like mixing Escher architecture with Ranaissance art, but is real!"
+        ],
+        "routes": {
+            "s": "1"
+        }
+    },
+    "1": {
+        "name": "hall of mirrors",
+        "description": [
+            "The plaque says: Hall of Mirrors replica, Palace of Versailles.",
+            "You are stunned at what you are seeing.",
+            "The room's magnificence is beyond comprehension.",
+            "There are just a few candles, but the masterly placemente of mirror creates a dim, even light.",
+            "Each chandelier costs probably more than your home and there are lots of them!",
+            "The statues, the arches, the painted cellar... You could go on for a day and not even grasp a fraction of all that majesty.",
+            "You wonder if the person who did this is a madman or a genius."
+        ],
+        "routes": {
+            "n": "0",
+            "s": "2"
+        }
+    },
+    "2": {
+        "name": "dark corridor",
+        "description": [
+            "Although it is just a corridor, the atmosphere is daunting!",
+            "Candlelight is dim and the walls are carved with complex patterns",
+            "Even if it's large, the effect is quite claustrophobic.",
+            "There's not much to see and you are glad you can leave that place. "
+        ],
+        "routes": {
+            "n": "1",
+            "e": "3"
+        }
+    },
+    "3": {
+        "name": "gothic lab",
+        "description": [
+            "This is another lab, but it is unlike any you have ever seen.",
+            "The room itself could be the most beautiful you can find in a castle but there are all kinds of instrumentation.",
+            "There are tools like abaci and stills, but also super hi tech photolithography tools, a server farm, and even a quantum computer and many other things you don't know.",
+            "You wonder what kind of technology is used here since old and new are intertwined for God knows what purpose.",
+            "To make it all even more surreal, there are paintings on the walls and statues in the corners, you doubt those are just replicas..."
+        ],
+        "routes": {
+            "w": "2",
+            "e": "4"
+        }
+    },
+    "4": {
+        "name": "gothic passage",
+        "description": [
+            "This is a passage room, but one you'd expect in a late medieval castle, with Gothic arches in every direction."
+        ],
+        "routes": {
+            "n": "5",
+            "s": "24",
+            "w": "3"
+        }
+    },
+    "5": {
+        "name": "chapel",
+        "description": [
+            "This room seems to be taken from another time. The plaque explains that it is an exact replica of the Chapel of St. John the Evangelist.",
+            "The original is in the White Tower of the Tower of London and is the oldest surviving complete chapel from the early Norman period.",
+            "You can say what you want, but you have to admit whoever did this has a good taste."
+        ],
+        "routes": {
+            "n": "6",
+            "s": "4"
+        }
+    },
+    "6": {
+        "name": "ceo office",
+        "description": [
+            "The plaque simply reads:\"CEO office\". This room, in stark contrast to the other rooms in that wing, is relatively somber and minimalistic.",
+            "It prioritizes functionality but the materials are top tiers and there's a billiard table.",
+            "Maybe it looks a bit underwhelming compared to previous halls, but it looks like the perfect office."
+        ],
+        "routes": {
+            "s": "5"
+        }
+    },
+    "7": {
+        "name": "crossroad",
+        "description": [
+            "This is a crossway. To the north, the exit is a Gothic arch",
+            "To the west there's a door with a keypad."
+        ],
+        "routes": {
+            "n": "24",
+            "s": "8",
+            "w": "18",
+            "e": "9"
+        }
+    },
+    "8": {
+        "name": "south corridor",
+        "description": [
+            "This is a pretty standard corridor. Not much to see here, except for the replicas of the most famous Renaissance paintings."
+        ],
+        "routes": {
+            "n": "7",
+            "s": "14"
+        }
+    },
+    "9": {
+        "name": "laboratory",
+        "description": [
+            "This area is completely different from the rest, it's perfectly clean, painted white and with harsh fluorescent lighting.",
+            "There are materials like reagents and folders. Everything is meticulously organized and closed in lockers."
+        ],
+        "routes": {
+            "w": "8",
+            "e": "10"
+        }
+    },
+    "10": {
+        "name": "advanced lab",
+        "description": [
+            "Maintaining the same clinical style of the previous room, this one has a workstation, a table and some other tools you don't recognize but seems to be hi tech."
+        ],
+        "routes": {
+            "n": "12",
+            "w": "9",
+            "e": "11"
+        }
+    },
+    "11": {
+        "name": "sterile room",
+        "description": [
+            "Another immaculate room, mostly empty except for hazard signs and numerous wall vents."
+        ],
+        "routes": {
+            "n": "13",
+            "w": "10"
+        }
+    },
+    "12": {
+        "name": "storeroom",
+        "description": [
+            "In spite of being a storeroom, it is pretty empty. It looks like it has been a while since anyone last entered this place."
+        ],
+        "routes": {
+            "s": "10"
+        }
+    },
+    "13": {
+        "name": "armor room",
+        "description": [
+            "This room is unlike the rest. Its walls are way thicker, there are lots of cables, measuring instruments, stethoscopes, electroencephalographs.",
+            "In the middle there's a sort armor stand.",
+            "The stand itself is a work of art, wtch richly inlaid decorations."
+        ],
+        "routes": {
+            "s": "11"
+        }
+    },
+    "14": {
+        "name": "main hall",
+        "description": [
+            "This is the main hall, but in truth it's a theater. And what a theater!",
+            "The plaque explains that this is a replica of the Teatro Olimpico in Vicenza designed by Andrea Palladio which is the oldest indoor theater still in existence and is a masterpiece from the Renaissance era.",
+            "The rear corridor connects to the other rooms and is a masterpiece on its own adorned with paintings and small sculptures."
+        ],
+        "routes": {
+            "n": "8",
+            "s": "15",
+            "w": "16"
+        }
+    },
+    "15": {
+        "name": "lobby",
+        "description": [
+            "This is Megacorp lobby. It's really opulent and well represents company riches.",
+            "It's modern and somewhat minimalistic, boasting colours ranging from creamy pastel to gold.",
+            "There are paintings of medieval knights and even a statue of a rearing horse with a knight wielding a jousting lance and a shield, wich represents company logo.",
+            "It seems to be made of solid gold.",
+            "There's no one in the reception and this looks quite suspicious."
+        ],
+        "routes": {
+            "n": "14"
+        }
+    },
+    "16": {
+        "name": "it room",
+        "description": [
+            "This is the IT room. Unlike the theater, this is rather bland and somewhat messy",
+            "There are some computers and a couple of racks, one dedicated to the theater.",
+            "All is rather unimpressive, and the fact that this is a passage room speaks volumes about the consideration that Megacorp has of the IT department."
+        ],
+        "routes": {
+            "n": "17",
+            "w": "19",
+            "e": "14"
+        }
+    },
+    "17": {
+        "name": "manager room",
+        "description": [
+            "You enter the area manager's office, the person that likely is charge of that section of the building.",
+            "At a quick glance it seems bombastic but soon you realize that most of the materials are quite cheap.",
+            "All lacks coherence: on one side there's a replica of the Lady with an Ermine, on another a print of Escher, and on a third the poster of Raging Bull",
+            "It looks like it needs to satisfy at least three personalities!"
+        ],
+        "routes": {
+            "n": "18",
+            "s": "16"
+        }
+    },
+    "18": {
+        "name": "bar",
+        "description": [
+            "This is the recreational bar of Megacorp!",
+            "Dim lights, brass-inlaid shelves, red finishes, golden details...",
+            "It features a vast collection of super expensive spirits, from aged whiskeys to old rums, craft gins and so on.",
+            "It's excessive from every point of view.",
+            "While the theater was elegant and somber, this one seems came straight out from Shining!"
+        ],
+        "routes": {
+            "s": "17",
+            "w": "21",
+            "e": "7"
+        }
+    },
+    "19": {
+        "name": "training room",
+        "description": [
+            "This area is larger than most, hosting several training dummies of various types.",
+            "One is called \"The Fortress\" and must have been extremely sturdy.",
+            "At least, judging by the pieces.",
+            "Something cut it in half so cleanly that the only things you can imagine doing that are a Jedi or a Sith with a lightsaber.",
+            "Whatever they are testing here, you really don't want to be the subject."
+        ],
+        "routes": {
+            "n": "20",
+            "e": "16"
+        }
+    },
+    "20": {
+        "name": "changing room",
+        "description": [
+            "This is a standard changing room, except for the tools dedicated to the maintenance of weapons and armor."
+        ],
+        "routes": {
+            "n": "21",
+            "s": "19",
+            "w": "23"
+        }
+    },
+    "21": {
+        "name": "treasury",
+        "description": [
+            "Although the room is called the Treasury, it's rather bare. You see a plaque explaining how Megacorp created the ultimate HEMA weapon called Excalibur. It far exceeded expectations and is considered a weapon of war.",
+            "Behind the plaque there's a rock with a slot, as deep as half a sword blade's length."
+        ],
+        "routes": {
+            "e": "18",
+            "s": "20"
+        }
+    },
+    "22": {
+        "name": "red room",
+        "description": [
+            "It's just an alcove with a dim, red, light."
+        ],
+        "routes": {
+            "w": "24"
+        }
+    },
+    "23": {
+        "name": "blue room",
+        "description": [
+            "It's just an alcove with a dim, blue, light."
+        ],
+        "routes": {
+            "e": "20"
+        }
+    },
+    "24": {
+        "name": "north corridor",
+        "description": [
+            "This is a pretty standard corridor. Not much to see here, except for the replicas of the most famous Renaissance sculptures."
+        ],
+        "routes": {
+            "n": "4",
+            "s": "7",
+            "e": "22"
+        }
+    }
+}
